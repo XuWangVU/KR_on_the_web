@@ -1,3 +1,6 @@
+#All the SPARQL query should be worked at https://druid.datalegend.net/Gemeenteraad/Elections/services/combination.
+#Also it's fine to use the SPARQL endpoint https://api.druid.datalegend.net/datasets/Gemeenteraad/Elections/services/combination/sparql
+
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
