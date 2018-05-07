@@ -1,0 +1,23 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT  Distinct ?sub ?p ?o WHERE {
+  ?sub ?pred <http://www.gemeentegeschiedenis.nl/amco/10002> .
+  ?sub ?p ?o.
+  {?sub a owl:municipality}
+  union
+  {?sub a <http://www.gemeentegeschiedenis.nl/gg-schema#Municipality>}
+} 
+#query the municipality(s) in the combined dataset through the amsterdam code
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT  Distinct ?sub ?p ?o WHERE {
+  ?sub ?pred <http://www.gemeentegeschiedenis.nl/cbscode/01730> .
+  ?sub ?p ?o.
+  {?sub a owl:municipality}
+  union
+  {?sub a <http://www.gemeentegeschiedenis.nl/gg-schema#Municipality>}
+} 
+#query the municipality(s) in the combined dataset through the cbs code
