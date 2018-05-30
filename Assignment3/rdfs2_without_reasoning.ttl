@@ -1,0 +1,734 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://dbpedia.org/resource/Christian_Democratic_Appeal> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democrats_66> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Labour_Party_(Netherlands)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Communist_Party_of_China> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Socialist_Party_(France)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Janata_Dal_(United)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Bharatiya_Janata_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Coalició_Compromís> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Labour_Party_(UK)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Polish_People's_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Party_of_Regions> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Nationalist_Congress_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/United_Russia> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Socialist_Party_(Portugal)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/United_Socialist_Party_of_Venezuela> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Civic_Platform> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Brazilian_Democratic_Movement_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Maharashtra_Navnirman_Sena> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Independent_(politics)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Fianna_Fáil> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Law_and_Justice> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/All_India_Anna_Dravida_Munnetra_Kazhagam> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/All-Ukrainian_Union_%22Freedom%22> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Shiv_Sena> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Samajwadi_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Propuesta_Republicana> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Independent_politician> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Fine_Gael> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Botswana_Movement_for_Democracy> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Social_Liberal_Union> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_(United_States)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Social_Democrats_(Ireland)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Sinn_Féin> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Oklahoma_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Party_(United_States)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Positive_Montenegro> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/South_Dakota_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Vermont_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Turkish_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/VMRO-DPMNE> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Basque_Nationalist_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Broad_Front_(Uruguay)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/The_Rally–UMP> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Institutional_Revolutionary_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Action_Gatineau> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Conservative_Party_(UK)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Serb_Democratic_Party_(Bosnia_and_Herzegovina)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Solidarity_Movement_(Cyprus)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Rally_of_Independents> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/General_People's_Congress_(Yemen)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Kansas_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Progressive_Citizens'_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Uzbekistan_Liberal_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Missouri_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Lao_People's_Revolutionary_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Malawi_Congress_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Chama_Cha_Mapinduzi> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Communist_Party_of_Vietnam> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Cambodian_People's_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Congress_(Sudan)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Nevada> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Nevada_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Patriotic_Unity> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Alliance_of_Liberals_and_Democrats_(Romania)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Cook_Islands_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Socialist_Party_(francophone_Belgium)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Arab_Socialist_Ba'ath_Party_–_Syria_Region> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Shiromani_Akali_Dal> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Uruguay_Assembly> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Democratic_Party_of_Tajikistan> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Social_Democratic_Party_of_Kyrgyzstan> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Communist_Party_of_India_(Marxist)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Washington_State_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/All_India_Trinamool_Congress> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Wyoming_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Independent_(politician)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/AIADMK> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Alliance_for_the_Betterment_and_Progress_of_Hong_Kong> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/DABHK> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Arkansas_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Ukrainian_Social-Democratic_Labour_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Colorado_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/United_People's_Freedom_Alliance> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/FDP.The_Liberals> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Iowa_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Kentucky> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Maryland_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Party_of_Honduras> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/New_Jersey_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_North_Carolina> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Party_of_Pennsylvania> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Rhode_Island_Democratic_Committee> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Vermont> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Liberal_Party_of_Australia> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Social_Democratic_Party_of_Austria> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Unionist_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Left_Ecology_Freedom> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Popular_Force> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democrats_for_Andorra> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Support_Egypt> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Christian_Democratic_Union_(Germany)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Farabundo_Martí_National_Liberation_Front> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Minnesota_Democratic–Farmer–Labor_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Montana_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/All_Progressive_Congress_(Nigeria)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Proposal> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/New_Mexico_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Party_of_Galicia> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Action_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_National_Movement> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Pennsylvania_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Movement_for_Socialism_(Bolivia)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Independence_Party_(Iceland)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Christian_Democratic_Union_of_Germany> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Progressive_Alliance_of_Socialists_and_Democrats> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Non-affiliated_members_of_the_House_of_Lords> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Prawo_i_Sprawiedliwość> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/SWAPO> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/African_National_Congress> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Mujahedin_of_Iran> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Polisario_Front> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Conservative_(UK)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Labour_Party_(Lithuania)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/South_Tyrolean_People's_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Martinican_Progressive_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Peruvian_Aprista_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Bahujan_Vikas_Aghadi> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Liberal_Democrats> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Gorran_Movement> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Indian_National_Congress> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Social_Democratic_Party_of_Germany> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Party_(Spain)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Alliance_of_Vojvodina_Hungarians> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Sp.a> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Alliance_(South_Africa)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Union_of_Ethical_Citizens> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Spanish_Socialist_Workers'_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Jubilee_Alliance> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Liga_Veneta> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Labour_Party_(Norway)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/No_overall_control> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Naga_People's_Front> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People_of_Freedom> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Social_Democratic_Party_(Portugal)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Nonpartisan> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Jammu_and_Kashmir_People's_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Indian_National_CongressParty> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Barisan_Nasional> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Workers'_Party_(Brazil)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Union_of_the_Centre_(2008)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Nacionalista_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Convergència_Democràtica_Aranesa_-_Partit_Nacionalista_Aranès> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Asturian_Socialist_Federation> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Partito_socialista_(PS)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Maldivian_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Pakistan_Peoples_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Indonesian_Democratic_Party-Struggle> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/United_Nationalist_Alliance> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Tamil_National_Alliance> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Laban_ng_Demokratikong_Pilipino> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Telangana_Rashtra_Samithi> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Oklahoma_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Unity_Party_(Philippines)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Likud> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/United_States_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Labour_Party_(Ireland)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/BJP> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Party_of_Maryland> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Hamas> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Bhartiya_Janata_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/West_Virginia_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Liberal_Party_of_Canada> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Alabama_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Arizona_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Coalition_of_the_Radical_Left> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/All_Progressives_Congress> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Unity_Party_(Liberia)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Muttahida_Quami_Movement> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Solidarity_(Petro_Poroshenko_Bloc)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Monarchy> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Botswana_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Nigerien_Party_for_Democracy_and_Socialism> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/New_Hampshire_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Socialist_Movement_for_Integration> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Junts_pel_Sí> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Democratic_Congress_(Ghana)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/All_People's_Congress> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Pennsylvania_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Vermont_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Progressive_Conservative_Association_of_Alberta> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Social_Democratic_and_Labour_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Democratic_Party_(Bhutan)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Pheu_Thai_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Rivers_State_People's_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Liberal_Democrats_(UK)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Liberal_Democratic_Party_(Japan)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Jammu_&_Kashmir_National_Conference> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Ahora_Madrid> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Pakistan_Muslim_League_(N)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Party_(Italy)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Sri_Lanka_Muslim_Congress> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/New-Flemish_Alliance> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Alaska_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Party_of_Kosovo> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Mouvement_Réformateur> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/California_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Party_of_the_Democratic_Revolution_(Mexico)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Danish_People's_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Georgia_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Colombian_Liberal_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Followers_of_Wilayat_fraction> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/List_of_Hope> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Christian_Social_Union_of_Bavaria> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/British_Columbia_Liberal_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Consensus_government> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Business_and_Professionals_Alliance_for_Hong_Kong> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Minnesota> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Mississippi_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Fidesz> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Serbian_Progressive_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Modern_Centre_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Action> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Plaid_Cymru> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Socialist_Party_of_Chile> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Slovak_National_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/North_Dakota_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Siumut> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/United_National_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/CdH> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Moderates_of_Åland> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Swedish_Social_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Alliance_(Latvia)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Social_Party_of_National_Unity> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Ecologist_Green_Party_of_Mexico> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/South_Carolina_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Conservative_Party_(Norway)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Workers'_Party_of_Korea> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Front_(Ukraine)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Party_of_Virginia> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_(United_States)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Party_of_California> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Dominican_Liberation_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Colorado_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/PVEM> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Florida> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/PDP-Laban> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Bangladesh_Awami_League> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/New_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Progressive_Conservative_Party_of_Manitoba> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Liberal_Party_of_Prince_Edward_Island> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republic_(Faroe_Islands)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Maine> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Michigan_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Montana> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Revolutionary_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/New_Hampshire_Republican_State_Committee> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_New_Mexico> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Party_of_New_York> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/New_Zealand_National_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Liberal_Party_of_Newfoundland_and_Labrador> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/North_Carolina_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Nova_Scotia_Liberal_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/FijiFirst> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Finns_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Party_for_Freedom_and_Democracy> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Party_for_Democracy_(Chile)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Moderate_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Australian_Labor_Party_(South_Australian_Branch)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Scottish_Conservative_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Texas> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Australian_Labor_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Wisconsin_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Yukon_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/The_Republicans_(France)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Nur_Otan> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Party_of_Washington> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Arizona> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democrats_(Brazil)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Social_Democratic_Party_(Romania)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Unity_of_Hope> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Connecticut_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Muttahidoon> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Hawaii_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/United_Democratic_Party_(Belize)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/GERB> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Amal_Movement> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Golkar> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Social_Democratic_Party_(Estonia)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Tennessee> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Australian_Liberal_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Wisconsin> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/SNP> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Party_of_Turkmenistan> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Liberal_Party_(Philippines)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Unity_Party_of_Nigeria> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Democratic_Party_(Nigeria)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Fidesz_-_Hungarian_Civic_Union> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Law–Citizenship–Rights_Movement> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Zimbabwe_African_National_Union_–_Patriotic_Front> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Oromo_Peoples'_Democratic_Organization> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Front_for_Democracy_and_Justice> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Kilusang_Bagong_Lipunan> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Centre_Party_(Germany)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Union_for_a_Better_Future_of_BiH> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Liberal_parties_in_pre-confederation_Newfoundland> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Sandinista_National_Liberation_Front> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_League_for_Democracy> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/New_Flemish_Alliance> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Kansas> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Rally_for_Democracy_in_Chad> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Mandate_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Green_Party_(Colombia)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Nidaa_Tounes> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/United_for_a_New_Alternative> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Canarian_Coalition> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Forum_for_Labour_and_Liberties> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Biju_Janata_Dal> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Social_Democratic_Alliance> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Sikkim_Democratic_Front> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Vision_Vancouver> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Louisiana_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Idaho_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Iowa> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Saskatchewan_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Podemos_(Spanish_political_party)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/UK_Independence_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Fascist_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Conservative_Party_UK> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Corsica_Libera> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Party_of_Democratic_Action> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Progressive_Party_of_Maldives> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/FRELIMO> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Luxembourg_Socialist_Workers'_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Liberal_Party_(Rwanda)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Czech_Social_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Rally_for_Democracy_(Algeria)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Delaware_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Kentucky_Democratic_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Kentucky_Republican_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Left_Democratic_Front_(Kerala)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Republican_Party_of_Armenia> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/New_Azerbaijan_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Movement_for_Democracy_(Cape_Verde)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Progressive_Alliance_(Mauritania)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Linyon_Demokratik_Seselwa> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/National_Democratic_Party_(Suriname)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Communist_Party_of_Cuba> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Jamaica_Labour_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Authenticity_and_Modernity_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Party_of_Moldova> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Democratic_Labour_Party_(Barbados)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Renewal_(Transnistria)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/People's_Party_of_Arunachal> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Aam_Aadmi_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Bhartiya_Janta_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/EAJ> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Communist_Party_of_Nepal_(Maoist-Centre)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Ulster_Unionist_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/SDLP> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Donetsk_Republic_(political_party)> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Bharatiya_Janta_Party> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/New_People's_Party–Civil_Force> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Valimisliit_Kodupaik> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Nationalist_People's_Coalition> a <http://dbpedia.org/ontology/PoliticalParty> .
+
+<http://dbpedia.org/resource/Socialist_Party_of_Albania> a <http://dbpedia.org/ontology/PoliticalParty> .
